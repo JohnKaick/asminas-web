@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux'
 
-import jogo from '../jogo/reducers'
+import jogos from '../jogo/reducers'
 
 export default combineReducers({
-    jogo,
+    jogos,
 })

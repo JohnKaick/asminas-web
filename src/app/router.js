@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Container } from 'semantic-ui-react'
 
 import Menu from '../component/menu'
-import jogoView from '../jogo/container'
+import jogoView from '../jogo'
 
 
 export default class extends Component {
