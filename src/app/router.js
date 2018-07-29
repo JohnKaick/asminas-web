@@ -1,27 +1,27 @@
 import React, { Component } from 'react';
-import { Router, Route, Switch, Redirect } from 'react-router-dom'
+import { Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Container } from 'semantic-ui-react'
 
 import Menu from '../component/menu'
-import jogoView from '../jogo'
+import jogoView from '../jogo/container'
 
 
 export default class extends Component {
     render() {
         return (
-            <div>
+            <Container>
                 <Menu />
                 <Router>
                     <Switch>
-                        <Route path="/jogo" render={() => (
-                            <div>
-                                <Route path="/jogo" component={jogoView} />
-                            </div>
+                        <Route path="/" render={() => (
+                            <Route exact path="/" component={jogoView} />
                         )} />
 
-                        <Redirect path="jogo" />
+                        <Redirect path="/" />
                     </Switch>
                 </Router>
-            </div>
+            </Container>
         )
     }
 }
