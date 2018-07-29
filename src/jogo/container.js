@@ -119,28 +119,28 @@ export default class extends Component {
                             </Card>
                         </Grid.Column>               
                         <Grid.Column width={3}>
-                                <Feed>
-                                    <Feed.Event>
-                                        <Feed.Label icon='check' />
-                                        <Feed.Content date='Goleiro' summary="Maria" />
-                                    </Feed.Event>
-                                    <Feed.Event>
-                                        <Feed.Label icon='check' />
-                                        <Feed.Content date='Zagueiro' summary="Maria" />
-                                    </Feed.Event>
-                                    <Feed.Event>
-                                        <Feed.Label icon='check' />
-                                        <Feed.Content date='Ala' summary="Maria" />
-                                    </Feed.Event>
-                                    <Feed.Event>
-                                        <Feed.Label icon='check' />
-                                        <Feed.Content date='Ala' summary="Maria" />
-                                    </Feed.Event>
-                                    <Feed.Event>
-                                        <Feed.Label icon='check' />
-                                        <Feed.Content date='Pivo' summary="Maria" />
-                                    </Feed.Event>
-                                </Feed>
+                            <Feed>
+                                <Feed.Event>
+                                    <Feed.Label icon='check' />
+                                    <Feed.Content date='Goleiro' summary="Maria" />
+                                </Feed.Event>
+                                <Feed.Event>
+                                    <Feed.Label icon='check' />
+                                    <Feed.Content date='Zagueiro' summary="Maria" />
+                                </Feed.Event>
+                                <Feed.Event>
+                                    <Feed.Label icon='check' />
+                                    <Feed.Content date='Ala' summary="Maria" />
+                                </Feed.Event>
+                                <Feed.Event>
+                                    <Feed.Label icon='check' />
+                                    <Feed.Content date='Ala' summary="Maria" />
+                                </Feed.Event>
+                                <Feed.Event>
+                                    <Feed.Label icon='check' />
+                                    <Feed.Content date='Pivo' summary="Maria" />
+                                </Feed.Event>
+                            </Feed>
                         </Grid.Column>
                     </Grid.Row>                
                 </Grid>
